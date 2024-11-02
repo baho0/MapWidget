@@ -2,8 +2,7 @@
 #include <QPixmap>
 #include <QDir>
 
-Drone::Drone(QWidget *widget, TileManager *tileManager,bool isEnemy) : QLabel(widget) {
-    this->tileManager = tileManager;
+Drone::Drone(QWidget *widget,bool isEnemy) : QLabel(widget) {
     QImage resizedDroneImage;
     QDir mydir = QDir::currentPath();
     mydir.cdUp();
@@ -12,6 +11,8 @@ Drone::Drone(QWidget *widget, TileManager *tileManager,bool isEnemy) : QLabel(wi
     qDebug()<< path;
     this->droneImageSize.setHeight(this->droneImageSize.height());
     this->droneImageSize.setWidth(this->droneImageSize.width());
+    this->resize(this->droneImageSize.width(),this->droneImageSize.height());
+    qDebug() << "size: " << this->size().width() << " " << this->size().height();
     if(!this->isEnemy){
         QImage droneImage(path+"/drone.png");
         resizedDroneImage = droneImage.scaled(this->droneImageSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
@@ -25,27 +26,6 @@ Drone::Drone(QWidget *widget, TileManager *tileManager,bool isEnemy) : QLabel(wi
     this->setPixmap(QPixmap::fromImage(resizedDroneImage));
 }
 
-void Drone::setLocation(const char xOrY, double value){
-    switch (xOrY){
-    case 'X':
-        this->locationX = value;
-    case 'Y':
-        this->locationY = value;
-    }
-
-}
-
-double Drone::getLocation(const char xOrY){
-    switch (xOrY){
-    case 'X':
-        return this->locationX;
-    case 'Y':
-        return this->locationY;
-    default:
-        return 0;
-    }
-
-}
 
 void Drone::setCoordinatesWithMavlink(){
 

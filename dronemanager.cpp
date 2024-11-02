@@ -2,12 +2,13 @@
 #include <QLabel>
 
 
-DroneManager::DroneManager() {
+DroneManager::DroneManager(TileManager *tileManager) {
+    this->tileManager = tileManager;
     this->drones= new QVector<Drone*>();
 }
 
-void DroneManager::initializeNewDrone(QWidget *parent,TileManager *tileManager, bool isEnemy,QHBoxLayout *layout){
-    Drone *drone = new Drone(parent,tileManager,isEnemy);
+void DroneManager::initializeNewDrone(QWidget *parent, bool isEnemy,QHBoxLayout *layout){
+    Drone *drone = new Drone(parent,isEnemy);
     layout->addWidget(drone);
     drones->append(drone);
 }
@@ -18,25 +19,22 @@ void DroneManager::calculateinWindowPosition(long double latitude,long double lo
     const double radius = 6371.5;
     long double radianLatitudeDrone = M_PI * drone->latitude/180;
     long double radianLongitudeDrone = M_PI * drone->longitude/180;
-    long double radianLatitudeMap = M_PI * drone->tileManager->latitude/180;
-    long double radianLongitudeMap = M_PI * drone->tileManager->longitude/180;
+    long double radianLatitudeMap = M_PI * this->tileManager->latitude/180;
+    long double radianLongitudeMap = M_PI * this->tileManager->longitude/180;
     double realDistanceY = radius  * (long double)(radianLatitudeMap-radianLatitudeDrone)*1000;
     double realDistanceX = radius * std::cos(radianLongitudeDrone) * (long double)(radianLongitudeMap-radianLongitudeDrone)*1000;
-    qDebug()<< "eachTileRealDistance: " << drone->tileManager->calculateEachTileRealDistance();
-    double eachPixel = 250/drone->tileManager->calculateEachTileRealDistance();
+    qDebug()<< "eachTileRealDistance: " << this->tileManager->calculateEachTileRealDistance();
+    double eachPixel = 250/this->tileManager->calculateEachTileRealDistance();
     qDebug()<<eachPixel;
-    drone->setLocation('X',-eachPixel*realDistanceX);
-    drone->setLocation('Y',eachPixel*realDistanceY);
+    drone->setGeometry(-eachPixel*realDistanceX,eachPixel*realDistanceY,25,25);
 }
 
 void DroneManager::refreshDronePositions(){
     for(Drone *drone : *this->drones){
         drone->setCoordinatesWithMavlink();
         //calculateinWindowPosition(drone->latitude,drone->longitude,drone);
-        calculateinWindowPosition(39.91932273771436, 32.852279661147364,drone);
-        moveLocation(drone);
+        calculateinWindowPosition(39.920756,32.854052,drone);
+
     }
 }
-void DroneManager::moveLocation(Drone *drone){
-    drone->setGeometry(drone->getLocation('X')+25/2,drone->getLocation('Y')+25/2,25,25);
-}
+
