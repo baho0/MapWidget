@@ -1,0 +1,5 @@
+/usr/local/lib/libMapWidget.so
+/usr/local/include/MapWidget/mapWidget.h
+/usr/local/include/MapWidget/tile.h
+/usr/local/include/MapWidget/tileManager.h
+/usr/local/include/MapWidget/drone.h

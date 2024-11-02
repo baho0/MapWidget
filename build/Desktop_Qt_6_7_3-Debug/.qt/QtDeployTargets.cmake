@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_MapWidget_FILE /home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/libMapWidget.so)
+set(__QT_DEPLOY_TARGET_MapWidget_TYPE SHARED_LIBRARY)

@@ -1,0 +1,9 @@
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/MapWidget.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/edit_cache.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/rebuild_cache.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/list_install_components.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/install.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/install/local.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/install/strip.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/MapWidget_autogen_timestamp_deps.dir
+/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/MapWidget_autogen.dir

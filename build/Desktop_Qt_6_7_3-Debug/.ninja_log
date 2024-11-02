@@ -1,0 +1,11 @@
+# ninja log v6
+7	32	1730464897029742098	MapWidget_autogen/timestamp	b60e0a680a267d9
+7	32	1730464897029742098	MapWidget_autogen/mocs_compilation.cpp	b60e0a680a267d9
+7	32	1730464897029742098	/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/MapWidget_autogen/timestamp	b60e0a680a267d9
+32	1377	1730464897054741770	CMakeFiles/MapWidget.dir/tileManager.cpp.o	3873ab1b8b2c2030
+1442	1813	1730464898464723316	libMapWidget.so	d29b42b696876929
+7	32	1730464897029742098	/home/baho/MapWidget/build/Desktop_Qt_6_7_3-Debug/MapWidget_autogen/mocs_compilation.cpp	b60e0a680a267d9
+32	1442	1730464897055741757	CMakeFiles/MapWidget.dir/drone.cpp.o	96b3eb6a2a98ea8b
+226	257	1730023940870402716	CMakeFiles/MapWidget.dir/mapWidget.cpp.o	2907583a64b88aa4
+226	1568	1730023940870402716	CMakeFiles/MapWidget.dir/tile.cpp.o	2672d2f76fe0e20d
+205	1658	1730445647035012223	CMakeFiles/MapWidget.dir/MapWidget_autogen/mocs_compilation.cpp.o	b090c740d08deede

@@ -1,0 +1,8 @@
+/home/baho/MapWidget/CMakeFiles/MapWidget.dir
+/home/baho/MapWidget/CMakeFiles/edit_cache.dir
+/home/baho/MapWidget/CMakeFiles/rebuild_cache.dir
+/home/baho/MapWidget/CMakeFiles/list_install_components.dir
+/home/baho/MapWidget/CMakeFiles/install.dir
+/home/baho/MapWidget/CMakeFiles/install/local.dir
+/home/baho/MapWidget/CMakeFiles/install/strip.dir
+/home/baho/MapWidget/CMakeFiles/MapWidget_autogen.dir
