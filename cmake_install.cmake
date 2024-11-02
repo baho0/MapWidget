@@ -67,6 +67,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/baho/MapWidget/tile.h"
     "/home/baho/MapWidget/tileManager.h"
     "/home/baho/MapWidget/drone.h"
+    "/home/baho/MapWidget/dronemanager.h"
     )
 endif()
 

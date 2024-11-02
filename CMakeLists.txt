@@ -18,7 +18,8 @@ add_library(MapWidget SHARED
     tileManager.h
     drone.h drone.cpp
     drone.png
-    dronemanager.h dronemanager.cpp
+    dronemanager.h
+    dronemanager.cpp
 )
 
 # Specify the C++ standard

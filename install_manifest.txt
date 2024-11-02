@@ -3,3 +3,4 @@
 /usr/local/include/MapWidget/tile.h
 /usr/local/include/MapWidget/tileManager.h
 /usr/local/include/MapWidget/drone.h
+/usr/local/include/MapWidget/dronemanager.h

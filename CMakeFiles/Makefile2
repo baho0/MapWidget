@@ -82,12 +82,12 @@ clean: CMakeFiles/MapWidget_autogen.dir/clean
 CMakeFiles/MapWidget.dir/all: CMakeFiles/MapWidget_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MapWidget.dir/build.make CMakeFiles/MapWidget.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MapWidget.dir/build.make CMakeFiles/MapWidget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baho/MapWidget/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target MapWidget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baho/MapWidget/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target MapWidget"
 .PHONY : CMakeFiles/MapWidget.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MapWidget.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/baho/MapWidget/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baho/MapWidget/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MapWidget.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/baho/MapWidget/CMakeFiles 0
 .PHONY : CMakeFiles/MapWidget.dir/rule
@@ -108,7 +108,7 @@ CMakeFiles/MapWidget.dir/clean:
 CMakeFiles/MapWidget_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MapWidget_autogen.dir/build.make CMakeFiles/MapWidget_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MapWidget_autogen.dir/build.make CMakeFiles/MapWidget_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baho/MapWidget/CMakeFiles --progress-num=7 "Built target MapWidget_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baho/MapWidget/CMakeFiles --progress-num=8 "Built target MapWidget_autogen"
 .PHONY : CMakeFiles/MapWidget_autogen.dir/all
 
 # Build rule for subdir invocation for target.

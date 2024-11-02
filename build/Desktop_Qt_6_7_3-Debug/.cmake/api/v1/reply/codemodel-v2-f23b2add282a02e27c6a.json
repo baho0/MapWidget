@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-5783aeb280cb4b87536c.json",
+					"jsonFile" : "directory-.-Debug-43df83315cedd7ed08da.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MapWidget::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MapWidget-Debug-c81f2cb2054f6ea490f4.json",
+					"jsonFile" : "target-MapWidget-Debug-d3d8aa7657e8e6674ad8.json",
 					"name" : "MapWidget",
 					"projectIndex" : 0
 				},

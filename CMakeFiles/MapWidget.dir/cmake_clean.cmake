@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MapWidget.dir/MapWidget_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/MapWidget.dir/drone.cpp.o"
   "CMakeFiles/MapWidget.dir/drone.cpp.o.d"
+  "CMakeFiles/MapWidget.dir/dronemanager.cpp.o"
+  "CMakeFiles/MapWidget.dir/dronemanager.cpp.o.d"
   "CMakeFiles/MapWidget.dir/mapWidget.cpp.o"
   "CMakeFiles/MapWidget.dir/mapWidget.cpp.o.d"
   "CMakeFiles/MapWidget.dir/tile.cpp.o"

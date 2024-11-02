@@ -17,13 +17,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 40,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 49,
+				"line" : 50,
 				"parent" : 0
 			}
 		]
@@ -51,7 +51,8 @@
 				"mapWidget.h",
 				"tile.h",
 				"tileManager.h",
-				"drone.h"
+				"drone.h",
+				"dronemanager.h"
 			],
 			"type" : "file"
 		}
